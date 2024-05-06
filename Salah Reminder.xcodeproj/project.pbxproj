@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510629A22BE91772008EC3ED /* Salah Reminder Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 510629A12BE91772008EC3ED /* Salah Reminder Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		510629A72BE91772008EC3ED /* Salah_ReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510629A62BE91772008EC3ED /* Salah_ReminderApp.swift */; };
+		510629A92BE91772008EC3ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510629A82BE91772008EC3ED /* ContentView.swift */; };
+		510629AB2BE91777008EC3ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510629AA2BE91777008EC3ED /* Assets.xcassets */; };
+		510629AE2BE91777008EC3ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510629AD2BE91777008EC3ED /* Preview Assets.xcassets */; };
+		510629B82BE91777008EC3ED /* Salah_Reminder_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510629B72BE91777008EC3ED /* Salah_Reminder_Watch_AppTests.swift */; };
+		510629C22BE91777008EC3ED /* Salah_Reminder_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510629C12BE91777008EC3ED /* Salah_Reminder_Watch_AppUITests.swift */; };
+		510629C42BE91777008EC3ED /* Salah_Reminder_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510629C32BE91777008EC3ED /* Salah_Reminder_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		510629A32BE91772008EC3ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510629952BE91772008EC3ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510629A02BE91772008EC3ED;
+			remoteInfo = "Salah Reminder Watch App";
+		};
+		510629B42BE91777008EC3ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510629952BE91772008EC3ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510629A02BE91772008EC3ED;
+			remoteInfo = "Salah Reminder Watch App";
+		};
+		510629BE2BE91777008EC3ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510629952BE91772008EC3ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510629A02BE91772008EC3ED;
+			remoteInfo = "Salah Reminder Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		510629CA2BE91777008EC3ED /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				510629A22BE91772008EC3ED /* Salah Reminder Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5106299B2BE91772008EC3ED /* Salah Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salah Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510629A12BE91772008EC3ED /* Salah Reminder Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salah Reminder Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510629A62BE91772008EC3ED /* Salah_ReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salah_ReminderApp.swift; sourceTree = "<group>"; };
+		510629A82BE91772008EC3ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		510629AA2BE91777008EC3ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		510629AD2BE91777008EC3ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		510629B32BE91777008EC3ED /* Salah Reminder Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salah Reminder Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510629B72BE91777008EC3ED /* Salah_Reminder_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salah_Reminder_Watch_AppTests.swift; sourceTree = "<group>"; };
+		510629BD2BE91777008EC3ED /* Salah Reminder Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salah Reminder Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510629C12BE91777008EC3ED /* Salah_Reminder_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salah_Reminder_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		510629C32BE91777008EC3ED /* Salah_Reminder_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salah_Reminder_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5106299E2BE91772008EC3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510629B02BE91777008EC3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510629BA2BE91777008EC3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		510629942BE91772008EC3ED = {
+			isa = PBXGroup;
+			children = (
+				510629A52BE91772008EC3ED /* Salah Reminder Watch App */,
+				510629B62BE91777008EC3ED /* Salah Reminder Watch AppTests */,
+				510629C02BE91777008EC3ED /* Salah Reminder Watch AppUITests */,
+				5106299C2BE91772008EC3ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5106299C2BE91772008EC3ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5106299B2BE91772008EC3ED /* Salah Reminder.app */,
+				510629A12BE91772008EC3ED /* Salah Reminder Watch App.app */,
+				510629B32BE91777008EC3ED /* Salah Reminder Watch AppTests.xctest */,
+				510629BD2BE91777008EC3ED /* Salah Reminder Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		510629A52BE91772008EC3ED /* Salah Reminder Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				510629A62BE91772008EC3ED /* Salah_ReminderApp.swift */,
+				510629A82BE91772008EC3ED /* ContentView.swift */,
+				510629AA2BE91777008EC3ED /* Assets.xcassets */,
+				510629AC2BE91777008EC3ED /* Preview Content */,
+			);
+			path = "Salah Reminder Watch App";
+			sourceTree = "<group>";
+		};
+		510629AC2BE91777008EC3ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				510629AD2BE91777008EC3ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		510629B62BE91777008EC3ED /* Salah Reminder Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				510629B72BE91777008EC3ED /* Salah_Reminder_Watch_AppTests.swift */,
+			);
+			path = "Salah Reminder Watch AppTests";
+			sourceTree = "<group>";
+		};
+		510629C02BE91777008EC3ED /* Salah Reminder Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				510629C12BE91777008EC3ED /* Salah_Reminder_Watch_AppUITests.swift */,
+				510629C32BE91777008EC3ED /* Salah_Reminder_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Salah Reminder Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5106299A2BE91772008EC3ED /* Salah Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510629CB2BE91777008EC3ED /* Build configuration list for PBXNativeTarget "Salah Reminder" */;
+			buildPhases = (
+				510629992BE91772008EC3ED /* Resources */,
+				510629CA2BE91777008EC3ED /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510629A42BE91772008EC3ED /* PBXTargetDependency */,
+			);
+			name = "Salah Reminder";
+			productName = "Salah Reminder";
+			productReference = 5106299B2BE91772008EC3ED /* Salah Reminder.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		510629A02BE91772008EC3ED /* Salah Reminder Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510629C72BE91777008EC3ED /* Build configuration list for PBXNativeTarget "Salah Reminder Watch App" */;
+			buildPhases = (
+				5106299D2BE91772008EC3ED /* Sources */,
+				5106299E2BE91772008EC3ED /* Frameworks */,
+				5106299F2BE91772008EC3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Salah Reminder Watch App";
+			productName = "Salah Reminder Watch App";
+			productReference = 510629A12BE91772008EC3ED /* Salah Reminder Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		510629B22BE91777008EC3ED /* Salah Reminder Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510629CE2BE91777008EC3ED /* Build configuration list for PBXNativeTarget "Salah Reminder Watch AppTests" */;
+			buildPhases = (
+				510629AF2BE91777008EC3ED /* Sources */,
+				510629B02BE91777008EC3ED /* Frameworks */,
+				510629B12BE91777008EC3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510629B52BE91777008EC3ED /* PBXTargetDependency */,
+			);
+			name = "Salah Reminder Watch AppTests";
+			productName = "Salah Reminder Watch AppTests";
+			productReference = 510629B32BE91777008EC3ED /* Salah Reminder Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		510629BC2BE91777008EC3ED /* Salah Reminder Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510629D12BE91777008EC3ED /* Build configuration list for PBXNativeTarget "Salah Reminder Watch AppUITests" */;
+			buildPhases = (
+				510629B92BE91777008EC3ED /* Sources */,
+				510629BA2BE91777008EC3ED /* Frameworks */,
+				510629BB2BE91777008EC3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510629BF2BE91777008EC3ED /* PBXTargetDependency */,
+			);
+			name = "Salah Reminder Watch AppUITests";
+			productName = "Salah Reminder Watch AppUITests";
+			productReference = 510629BD2BE91777008EC3ED /* Salah Reminder Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		510629952BE91772008EC3ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5106299A2BE91772008EC3ED = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					510629A02BE91772008EC3ED = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					510629B22BE91777008EC3ED = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 510629A02BE91772008EC3ED;
+					};
+					510629BC2BE91777008EC3ED = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 510629A02BE91772008EC3ED;
+					};
+				};
+			};
+			buildConfigurationList = 510629982BE91772008EC3ED /* Build configuration list for PBXProject "Salah Reminder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 510629942BE91772008EC3ED;
+			productRefGroup = 5106299C2BE91772008EC3ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5106299A2BE91772008EC3ED /* Salah Reminder */,
+				510629A02BE91772008EC3ED /* Salah Reminder Watch App */,
+				510629B22BE91777008EC3ED /* Salah Reminder Watch AppTests */,
+				510629BC2BE91777008EC3ED /* Salah Reminder Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		510629992BE91772008EC3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5106299F2BE91772008EC3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510629AE2BE91777008EC3ED /* Preview Assets.xcassets in Resources */,
+				510629AB2BE91777008EC3ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510629B12BE91777008EC3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510629BB2BE91777008EC3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5106299D2BE91772008EC3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510629A92BE91772008EC3ED /* ContentView.swift in Sources */,
+				510629A72BE91772008EC3ED /* Salah_ReminderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510629AF2BE91777008EC3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510629B82BE91777008EC3ED /* Salah_Reminder_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510629B92BE91777008EC3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510629C42BE91777008EC3ED /* Salah_Reminder_Watch_AppUITestsLaunchTests.swift in Sources */,
+				510629C22BE91777008EC3ED /* Salah_Reminder_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		510629A42BE91772008EC3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510629A02BE91772008EC3ED /* Salah Reminder Watch App */;
+			targetProxy = 510629A32BE91772008EC3ED /* PBXContainerItemProxy */;
+		};
+		510629B52BE91777008EC3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510629A02BE91772008EC3ED /* Salah Reminder Watch App */;
+			targetProxy = 510629B42BE91777008EC3ED /* PBXContainerItemProxy */;
+		};
+		510629BF2BE91777008EC3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510629A02BE91772008EC3ED /* Salah Reminder Watch App */;
+			targetProxy = 510629BE2BE91777008EC3ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		510629C52BE91777008EC3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		510629C62BE91777008EC3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		510629C82BE91777008EC3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Salah Reminder Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2865XVQBK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Salah Reminder";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOMechs.Salah-Reminder.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		510629C92BE91777008EC3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Salah Reminder Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2865XVQBK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Salah Reminder";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOMechs.Salah-Reminder.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		510629CC2BE91777008EC3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2865XVQBK3;
+				INFOPLIST_KEY_CFBundleDisplayName = "Salah Reminder";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOMechs.Salah-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		510629CD2BE91777008EC3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2865XVQBK3;
+				INFOPLIST_KEY_CFBundleDisplayName = "Salah Reminder";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOMechs.Salah-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		510629CF2BE91777008EC3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2865XVQBK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOMechs.Salah-Reminder-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salah Reminder Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Salah Reminder Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		510629D02BE91777008EC3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2865XVQBK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOMechs.Salah-Reminder-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salah Reminder Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Salah Reminder Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		510629D22BE91777008EC3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2865XVQBK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOMechs.Salah-Reminder-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Salah Reminder Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		510629D32BE91777008EC3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2865XVQBK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOMechs.Salah-Reminder-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Salah Reminder Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		510629982BE91772008EC3ED /* Build configuration list for PBXProject "Salah Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510629C52BE91777008EC3ED /* Debug */,
+				510629C62BE91777008EC3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510629C72BE91777008EC3ED /* Build configuration list for PBXNativeTarget "Salah Reminder Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510629C82BE91777008EC3ED /* Debug */,
+				510629C92BE91777008EC3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510629CB2BE91777008EC3ED /* Build configuration list for PBXNativeTarget "Salah Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510629CC2BE91777008EC3ED /* Debug */,
+				510629CD2BE91777008EC3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510629CE2BE91777008EC3ED /* Build configuration list for PBXNativeTarget "Salah Reminder Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510629CF2BE91777008EC3ED /* Debug */,
+				510629D02BE91777008EC3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510629D12BE91777008EC3ED /* Build configuration list for PBXNativeTarget "Salah Reminder Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510629D22BE91777008EC3ED /* Debug */,
+				510629D32BE91777008EC3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 510629952BE91772008EC3ED /* Project object */;
+}
